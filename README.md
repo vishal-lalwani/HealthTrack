@@ -10,20 +10,19 @@ This project builds and trains deep learning and ML models for patient condition
 
 ## Project Structure
 HealthTrack-AI/
-├── README.md                        # Project overview
-├── requirements.txt                 # Dependencies
-├── .gitignore                       # Ignore large/data files & cache
+├── README.md
+├── requirements.txt
+├── .gitignore
 ├── data/
-│   ├── healthtrack_dataset.csv       # (dummy/sample only – not sensitive)
-│   └── healthtrack_dataset_preprocessed.csv (optional, or generate via script)
+│   ├── healthtrack_dataset.csv
+│   └── healthtrack_dataset_preprocessed.csv
 ├── src/
-│   ├── preprocess_healthtrack.py    # Preprocessing pipeline
-│   ├── train_healthtrack_keras.py   # Keras training
-│   └── train_healthtrack_sklearn.py # Scikit-learn training
-├── models/                          # Saved models (or empty with .gitkeep)
-├── notebooks/                       # Optional: Jupyter notebooks for EDA
+│   ├── preprocess_healthtrack.py
+│   ├── train_healthtrack_keras.py
+│   └── train_healthtrack_sklearn.py
+├── models/
 └── reports/
-    └── training_reports/            # Saved text reports from training
+    └── training_reports/
 
 
 ## Installation
