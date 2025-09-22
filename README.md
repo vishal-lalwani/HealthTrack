@@ -9,6 +9,7 @@ This project builds and trains deep learning and ML models for patient condition
 - Training reports saved automatically.
 
 ## Project Structure
+```
 HealthTrack-AI/
 ├── README.md
 ├── requirements.txt
@@ -23,7 +24,7 @@ HealthTrack-AI/
 ├── models/
 └── reports/
     └── training_reports/
-
+```
 
 ## Installation
 ```bash
