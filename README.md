@@ -10,7 +10,7 @@ This project builds and trains deep learning and ML models for patient condition
 
 ## Project Structure
 ```
-HealthTrack-AI/
+HealthTrack/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
@@ -28,6 +28,6 @@ HealthTrack-AI/
 
 ## Installation
 ```bash
-git clone https://github.com/vishal-lalwani/HealthTrack-AI.git
-cd HealthTrack-AI
+git clone https://github.com/vishal-lalwani/HealthTrack.git
+cd HealthTrack
 pip install -r requirements.txt
